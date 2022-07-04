@@ -1,0 +1,368 @@
+[ 2022-02-16T15:39:48+08:00 ] 127.0.0.1 /home/index/showblog/id/165
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id=165' at line 1
+ [ SQL语句 ] : update blog_article set comments= where id=165
+
+[ 2022-02-16T15:41:57+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : select nickname,title,content,views,likes,time from blog_article left join blog_user on blog_article.user_id=blog_user.id where  blog_article.id=home
+
+[ 2022-02-16T16:03:18+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_article` SET `views`=views+1 WHERE ( id=home )
+
+[ 2022-02-16T16:04:00+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_article` SET `views`=views+1 WHERE ( id=home )
+
+[ 2022-02-16T16:04:03+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_article` SET `views`=views+1 WHERE ( id=home )
+
+[ 2022-02-16T16:04:23+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_article` SET `views`=views+1 WHERE ( id=home )
+
+[ 2022-02-16T16:04:55+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_article` SET `views`=views+1 WHERE ( id=home )
+
+[ 2022-02-16T16:06:12+08:00 ] 127.0.0.1 /home/index/showblog/id/home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'home' in 'where clause'
+ [ SQL语句 ] : UPDATE `blog_article` SET `views`=views+1 WHERE ( id=home )
+
+[ 2022-02-16T16:06:17+08:00 ] 127.0.0.1 /home/comment/addcomment?text=&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:06:40+08:00 ] 127.0.0.1 /home/comment/addcomment?text=&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:07:10+08:00 ] 127.0.0.1 /home/comment/addcomment?text=&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:07:16+08:00 ] 127.0.0.1 /home/comment/addcomment?text=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:08:52+08:00 ] 127.0.0.1 /home/comment/addcomment?text=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:09:02+08:00 ] 127.0.0.1 /home/comment/addcomment?text=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:08+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:20+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:10:28+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:22+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:22+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:22+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:22+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:22+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:23+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:28+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:29+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:29+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:29+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:29+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:11:44+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:14:43+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-16T16:17:28+08:00 ] 127.0.0.1 /home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(12,,'',1,CURDATE())
+
+[ 2022-02-16T16:19:28+08:00 ] 127.0.0.1 /home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(12,,'',1,CURDATE())
+
+[ 2022-02-16T16:21:25+08:00 ] 127.0.0.1 /home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(12,,'',1,CURDATE())
+
+[ 2022-02-16T16:21:30+08:00 ] 127.0.0.1 /home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(12,,'',1,CURDATE())
+
+[ 2022-02-16T16:21:53+08:00 ] 127.0.0.1 /home/comment/addcomment?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(12,,'',1,CURDATE())
+
+[ 2022-02-16T16:23:02+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/?text=tashuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(12,,'',1,CURDATE())
+
+[ 2022-02-16T16:24:07+08:00 ] 127.0.0.1 /home/comment/addcomment?text=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:24:16+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/?text=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ','',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,,'',1,CURDATE())
+
+[ 2022-02-16T16:39:07+08:00 ] 127.0.0.1 /index.php/Home/Comment/showblog.html
+ERR: 非法操作:showblog
+
+[ 2022-02-16T16:39:15+08:00 ] 127.0.0.1 /index.php/Home/Comment/showblog.html
+ERR: 非法操作:showblog
+
+[ 2022-02-16T16:42:06+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?content=%E4%BB%96%E8%AF%B4&submit=%E5%8F%91%E5%B8%83
+ERR: 模板不存在:./Application/Home/View//home/omdex/showblog/165.html
+
+[ 2022-02-16T16:42:28+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?content=%E4%BB%96%E8%AF%B4&submit=%E5%8F%91%E5%B8%83
+ERR: 模板不存在:./Application/Home/View/home/index/showblog/165.html
+
+[ 2022-02-16T16:42:30+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?content=%E4%BB%96%E8%AF%B4&submit=%E5%8F%91%E5%B8%83
+ERR: 模板不存在:./Application/Home/View/home/index/showblog/165.html
+
+[ 2022-02-16T16:46:51+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?content=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '165,'',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,165,'',1,CURDATE())
+
+[ 2022-02-16T16:46:58+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?content=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '165,'',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,165,'',1,CURDATE())
+
+[ 2022-02-16T16:47:22+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?content=nishuo&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '165,'',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,165,'',1,CURDATE())
+
+[ 2022-02-16T16:48:18+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/165?text=%E4%BB%96%E6%98%AF%E4%BD%A0%E8%AF%B4&submit=%E5%8F%91%E5%B8%83
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '165,'他是你说',1,CURDATE())' at line 1
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(,165,'他是你说',1,CURDATE())
+

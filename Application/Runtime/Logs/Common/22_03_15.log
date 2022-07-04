@@ -1,0 +1,21 @@
+[ 2022-03-15T14:09:53+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2022-03-15T14:09:57+08:00 ] 127.0.0.1 /Public/image/bg.png
+ERR: 无法加载模块:Public
+
+[ 2022-03-15T14:10:17+08:00 ] 127.0.0.1 /public/js/jquery-3.3.1.min.js
+ERR: 无法加载模块:Public
+
+[ 2022-03-15T14:10:17+08:00 ] 127.0.0.1 /public/js/popper.min.js
+ERR: 无法加载模块:Public
+
+[ 2022-03-15T14:11:58+08:00 ] 127.0.0.1 /public/js/jquery-3.3.1.min.js
+ERR: 无法加载模块:Public
+
+[ 2022-03-15T14:11:58+08:00 ] 127.0.0.1 /public/js/popper.min.js
+ERR: 无法加载模块:Public
+
+[ 2022-03-15T14:12:17+08:00 ] 127.0.0.1 /public/css/pageMenu.css
+ERR: 无法加载模块:Public
+

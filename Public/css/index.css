@@ -1,0 +1,73 @@
+
+a
+{
+    color:#333;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(24, 143, 255);
+}
+
+
+/*左边主要内容*/
+.main-left{background:#fff;}
+.main-left .list-header
+{
+    margin-bottom:30px;
+}
+.main-left .main-content
+{
+    border-bottom:1px solid rgb(218, 218, 218);
+   
+}
+.mani-left .main-content a h3
+{
+	color:#0080FF;
+	font-size:20px;
+}
+
+.main-left .main-content p img
+{
+    width:16px;
+    height:16px;
+}
+.main-left .main-content p span
+{
+    font-size:12px;
+    margin-right:10px;
+}
+
+.main-left .main-content a
+{
+    color:#333;
+}
+.main-left .main-content a:hover
+{
+    color:rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+ 
+
+
+.content
+{
+    border-bottom:1px solid #ccc;
+}
+input{
+margin-bottom:20px;
+}
+.btn{
+    margin:20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+

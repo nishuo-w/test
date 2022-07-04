@@ -1,0 +1,92 @@
+[ 2022-02-12T21:11:46+08:00 ] 127.0.0.1 /home/comment/index
+ERR: 1052:Column 'id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`title`,`text`,blog_comment.time as time,`statu` FROM `blog_comment` INNER JOIN blog_article on blog_article.id = blog_comment.article_id  
+
+[ 2022-02-12T22:12:20+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_atatu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+ERR: 非法操作:ajax_atatu
+
+[ 2022-02-12T22:12:55+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0029s ]
+SQL: UPDATE `blog_comment` SET `statu`='0' WHERE `id` = 1 [ RunTime:0.1246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012791s ]
+
+[ 2022-02-12T22:13:01+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0028s ]
+SQL: UPDATE `blog_comment` SET `statu`='1' WHERE `id` = 1 [ RunTime:0.0990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003391s ]
+
+[ 2022-02-12T22:13:06+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0026s ]
+SQL: UPDATE `blog_comment` SET `statu`='0' WHERE `id` = 2 [ RunTime:0.0921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014941s ]
+
+[ 2022-02-12T22:13:12+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0028s ]
+SQL: UPDATE `blog_comment` SET `statu`='1' WHERE `id` = 2 [ RunTime:0.0208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002273s ]
+
+[ 2022-02-12T22:13:16+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002868s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0033s ]
+SQL: UPDATE `blog_comment` SET `statu`='1' WHERE `id` = 3 [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2022-02-12T22:13:22+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0045s ]
+SQL: UPDATE `blog_comment` SET `statu`='2' WHERE `id` = 3 [ RunTime:0.0155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009923s ]
+
+[ 2022-02-12T22:13:28+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0046s ]
+SQL: UPDATE `blog_comment` SET `statu`='2' WHERE `id` = 4 [ RunTime:0.1765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014162s ]
+
+[ 2022-02-12T22:38:19+08:00 ] 127.0.0.1 /home/index/showblog/id/179
+ERR: 1052:Column 'user_id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `article_id`,`user_id`,`text` FROM `blog_comment` INNER JOIN blog_article on blog_article.id = blog_comment.article_id INNER JOIN blog_user on blog_user.id = blog_comment.user_id  WHERE ( statu=1 and artcile_id=179 ) 
+
+[ 2022-02-12T22:38:43+08:00 ] 127.0.0.1 /home/index/showblog/id/179
+ERR: 1054:Unknown column 'artcile_id' in 'where clause'
+ [ SQL语句 ] : SELECT `article_id`,blog_comment.user_id,`text` FROM `blog_comment` INNER JOIN blog_article on blog_article.id = blog_comment.article_id INNER JOIN blog_user on blog_user.id = blog_comment.user_id  WHERE ( statu=1 and artcile_id=179 ) 
+
+[ 2022-02-12T22:40:26+08:00 ] 127.0.0.1 /home/index/showblog/id/179
+ERR: 1054:Unknown column 'article' in 'where clause'
+ [ SQL语句 ] : SELECT `article_id`,blog_comment.user_id,`text` FROM `blog_comment` INNER JOIN blog_article on blog_article.id = blog_comment.article_id INNER JOIN blog_user on blog_user.id = blog_comment.user_id  WHERE ( statu=1 and article=179 ) 
+

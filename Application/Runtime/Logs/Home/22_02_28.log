@@ -1,0 +1,6 @@
+[ 2022-02-28T18:06:32+08:00 ] 127.0.0.1 /home/index/php/upload.php?test=dfdf&guid=1646042782817
+ERR: 非法操作:php
+
+[ 2022-02-28T18:06:50+08:00 ] 127.0.0.1 /home/index/php/upload.php?test=dfdf&guid=1646042782817
+ERR: 非法操作:php
+

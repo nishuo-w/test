@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8" />
+        <title>写日志--学习心得分享平台</title>
+        <link rel="stylesheet" href="/public/lib/editormd/css/style.css" />
+        <link rel="stylesheet" href="/public/lib/editormd/css/editormd.css" />
+        <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" src="/public/lib/js/jquery.min.js"></script>
+        <script src="/public/lib/editormd/editormd.min.js"></script>
+        <style>
+            header{
+                padding: 0 27px;
+                height: 100px;
+                line-height:70px;
+                background-color: #fff;
+                border-bottom: 1px solid #ddd;
+                z-index: 100;
+                display:flex;
+                justify-content: space-between;
+            }
+            header .title_input{    
+                font-size: 24px;
+                font-weight: 500;
+                text-indent: 2em;
+                width:500px;
+                color: #1d2129;
+                border: none;
+                outline: none;
+                border:1px solid red;
+            }
+            
+            header .right_box
+            {
+                width:230px;
+                padding:0px 20px;
+                display: flex;
+                border: none;
+                justify-content: space-between;
+                align-items: center;
+            }
+            header .right_box .submit_btn
+            {
+                height: 32px;
+                padding: 2px 16px;
+                font-size: 14px;
+                line-height: 22px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                color: #fff;
+                box-sizing: border-box;
+                background-color: #1d7dfa;
+            }
+            header .right_box .imgpath
+            {
+                width:50px;
+                height:50px;
+                border-radius: 50%;
+                position:relative;
+            }
+            header .right_box .imgpath img
+            {
+                width:100%;
+                height:100%;
+                border-radius: 50%;
+                position:absolute;
+                top:0;
+                left:0;
+            }
+            
+        </style>
+    </head>
+    <body>
+        {$msg}
+        <form method="post" action="/home/index/addblogdata">
+            <div id="layout" style="height: 2000px;background: #f6f6f6;">
+                <header class="container">
+                    <div class="col-md-5"><input type="text" name="title" required=""  class="title_input" placeholder="输入日志标题…"></div>
+                    <div>
+                       关键词：<input type="text" name="keywords"/>&nbsp;&nbsp;
+                       标 签：
+                        <select name="name">
+                            {$c}
+                        </select>
+                    </div>
+                    <div class="right_box col-md-4">
+                        <input type="submit" name="submit" value="发布日志" class="submit_btn">
+                        <div class="imgpath"><img src="/public/image/1.jpg" alt=""/></div>
+                    </div>
+                </header>
+                
+                <div id="test-editormd" >
+                    <textarea name="content" autofocus="autofocus" required></textarea>
+                </div>
+            </div>  
+        </form>
+        
+        
+        
+        <script src="/public/js/jquery.min.js"></script>
+        <script src="/public/lib/editormd/editormd.js"></script>
+
+
+        <script type="text/javascript">
+            $(function() {                
+                var testEditor = editormd("test-editormd", {
+                    width: "90%",
+                    height: 640,
+                    markdown : "",
+                    path : '/public/lib/editormd/lib/',
+                    //dialogLockScreen : false,   // 设置弹出层对话框不锁屏，全局通用，默认为 true
+                    //dialogShowMask : false,     // 设置弹出层对话框显示透明遮罩层，全局通用，默认为 true
+                    //dialogDraggable : false,    // 设置弹出层对话框不可拖动，全局通用，默认为 true
+                    //dialogMaskOpacity : 0.4,    // 设置透明遮罩层的透明度，全局通用，默认值为 0.1
+                    //dialogMaskBgColor : "#000", // 设置透明遮罩层的背景颜色，全局通用，默认为 #fff
+                    imageUpload : true,
+                    imageFormats : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
+                    imageUploadURL : "./php/upload.php?test=dfdf",
+                    
+                    /*
+                     上传的后台只需要返回一个 JSON 数据，结构如下：
+                     {
+                        success : 0 | 1,           // 0 表示上传失败，1 表示上传成功
+                        message : "提示的信息，上传成功或上传失败及错误信息等。",
+                        url     : "图片地址"        // 上传成功时才返回
+                     }
+                     */
+                });
+            });
+        </script>
+    </body>
+</html>

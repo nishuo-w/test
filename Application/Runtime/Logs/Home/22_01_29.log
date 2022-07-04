@@ -1,0 +1,451 @@
+[ 2022-01-29T23:18:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005236s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where blog_article.user_id= blog_user.id' at line 1
+ [ SQL语句 ] : select title,content,nickname,views,likes from blog_article left join blog_user where blog_article.user_id= blog_user.id
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where blog_article.user_id= blog_user.id' at line 1
+ [ SQL语句 ] : select title,content,nickname,views,likes from blog_article left join blog_user where blog_article.user_id= blog_user.id
+
+[ 2022-01-29T23:23:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006327s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004929s ]
+
+[ 2022-01-29T23:23:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005098s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005488s ]
+
+[ 2022-01-29T23:23:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004792s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004465s ]
+
+[ 2022-01-29T23:23:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005622s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004939s ]
+
+[ 2022-01-29T23:24:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004759s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006868s ]
+
+[ 2022-01-29T23:25:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004732s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002230s ]
+
+[ 2022-01-29T23:27:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004453s ]
+
+[ 2022-01-29T23:27:19+08:00 ] 127.0.0.1 /home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005624s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 1146:Table 'blog.news_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_article`
+ERR: 1146:Table 'blog.news_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_article`
+
+[ 2022-01-29T23:34:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007033s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005428s ]
+
+[ 2022-01-29T23:34:29+08:00 ] 127.0.0.1 /home/index/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008037s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0049s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT blog_article.id as id,`title`,`nickame`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT blog_article.id as id,`title`,`nickame`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id= ) 
+
+[ 2022-01-29T23:36:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005167s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: id E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 81 行.
+NOTIC: [8] Undefined index: id E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005293s ]
+
+[ 2022-01-29T23:37:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004732s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'title,content,nickname,views,likes from blog_article left join blog_user on blog' at line 1
+ [ SQL语句 ] : select blog_article as id title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'title,content,nickname,views,likes from blog_article left join blog_user on blog' at line 1
+ [ SQL语句 ] : select blog_article as id title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id
+
+[ 2022-01-29T23:37:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004609s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'title,content,nickname,views,likes from blog_article left join blog_user on blog' at line 1
+ [ SQL语句 ] : select blog_article.id as id title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'title,content,nickname,views,likes from blog_article left join blog_user on blog' at line 1
+ [ SQL语句 ] : select blog_article.id as id title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id
+
+[ 2022-01-29T23:37:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004668s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select blog_article.id as id, title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006373s ]
+
+[ 2022-01-29T23:37:54+08:00 ] 127.0.0.1 /home/index/show/id/161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003934s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0068s ]
+ERR: 1054:Unknown column 'nickame' in 'field list'
+ [ SQL语句 ] : SELECT blog_article.id as id,`title`,`nickame`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 ) 
+ERR: 1054:Unknown column 'nickame' in 'field list'
+ [ SQL语句 ] : SELECT blog_article.id as id,`title`,`nickame`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 ) 
+
+[ 2022-01-29T23:39:06+08:00 ] 127.0.0.1 /home/index/show/id/161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005606s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0064s ]
+ERR: 1054:Unknown column 'blog_user.nickame' in 'field list'
+ [ SQL语句 ] : SELECT blog_article.id as id,`title`,blog_user.nickame,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 ) 
+ERR: 1054:Unknown column 'blog_user.nickame' in 'field list'
+ [ SQL语句 ] : SELECT blog_article.id as id,`title`,blog_user.nickame,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 ) 
+
+[ 2022-01-29T23:39:33+08:00 ] 127.0.0.1 /home/index/show/id/161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013407s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0044s ]
+SQL: SELECT blog_article.id as id,`title`,`nickname`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: cid E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: cid E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: name E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: njckname E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 79 行.
+NOTIC: [8] Undefined variable: pre E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 87 行.
+NOTIC: [8] Undefined variable: pre E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 87 行.
+NOTIC: [8] Undefined variable: next E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 88 行.
+NOTIC: [8] Undefined variable: next E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007714s ]
+
+[ 2022-01-29T23:39:33+08:00 ] 127.0.0.1 /home/index/show/id/161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.090323s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007717s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0046s ]
+SQL: SELECT blog_article.id as id,`title`,`nickname`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: cid E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: cid E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: name E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: njckname E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 79 行.
+NOTIC: [8] Undefined variable: pre E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 87 行.
+NOTIC: [8] Undefined variable: pre E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 87 行.
+NOTIC: [8] Undefined variable: next E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 88 行.
+NOTIC: [8] Undefined variable: next E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005003s ]
+
+[ 2022-01-29T23:40:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004754s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select blog_article.id as id, title,content,nickname,views,likes from blog_article left join blog_user on blog_article.user_id= blog_user.id [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005041s ]
+
+[ 2022-01-29T23:40:14+08:00 ] 127.0.0.1 /home/index/show/id/161
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008095s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0047s ]
+SQL: SELECT blog_article.id as id,`title`,`nickname`,`content`,`imagepath`,`views` FROM `blog_article` INNER JOIN blog_user on blog_article.user_id=blog_user.id  WHERE ( blog_article.id=161 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: cid E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: cid E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined index: name E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 71 行.
+NOTIC: [8] Undefined variable: pre E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 87 行.
+NOTIC: [8] Undefined variable: pre E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 87 行.
+NOTIC: [8] Undefined variable: next E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 88 行.
+NOTIC: [8] Undefined variable: next E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\ef90aeb0d15d5181851dc046c9941189.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002951s ]
+

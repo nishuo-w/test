@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+h3{border-bottom:2px solid #267bd4;font-size:22px;line-height:40px;margin-bottom:10px;}
+
+#main a{color:#000}
+/*头部*/
+#top{width:1200px;height:80px;line-height:80px;font-size:36px;text-indent:10px;color:#168eda;font-family:"方正姚体";background-color:#F2F2F2;margin:auto;}
+
+/*顶部导航栏*/
+#nav{margin:auto;width:1200px;height:50px;background-color:#168eda;line-height:50px;display:flex;justify-content:space-around;}
+#nav a{font-size:18px;color:#fff;padding:0px 40px;}
+#nav a:hover{background-color:#47a3da}
+
+/*轮播图*/
+#banner{width:1200px;height:300px;margin:auto;margin:0px auto 10px;}
+#banner img{width:1200px;height:300px;}
+#banner .swiper-pagination-bullet{background-color:#fff;opacity:.8}
+#banner .swiper-pagination-bullet-active{background-color:#168eda}
+
+/*学院要闻*/
+.xyyw{width:1200px;height:250px;margin:15px auto;position:relative}
+.xyyw h3{width:1200px;margin-bottom:10px;}
+.xyyw h3 span{font-family: "微软雅黑";font-weight:normal;font-size:14px}
+.xyyw ul li{background:url(/public/image/list.png) no-repeat 4px 14px;text-indent:12px;color:#333;line-height:32px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.xyyw ul li{font-size:14px;}
+.xyyw ul li a{color:#333}
+.xyyw ul li:hover{color:#3c85db}
+.xyyw ul li:hover a{color:#3c85db}
+.xyyw ul li span{color:#929292;float:right;font-size:12px;}
+.xyyw a{color:#333}
+.xyyw .xyyw-swiper{width:700px;height:250px;float:left}
+.xyyw .xyyw-swiper  .de_tit{width:350px;height:200px;float:right;position:relative;background-color:#fff}
+.xyyw .xyyw-swiper .de_tit h3{width:350px;font-size:16px;height:40px;line-height:35px;border:none}
+.xyyw .xyyw-swiper .de_tit p{width:350px;height:150px;border:1px solid yellow;margin-top:30px;}
+.xyyw .xyyw-swiper .swiper-slide{width:700px;height:230px;}
+
+.xyyw .news{width:400px;height:250px;float:right;border:1px solid #ccc}
+.xyyw .more{position:absolute;top:10px;right:5px;color:#999}
+.xyyw .more a:hover{color:#267bd4;text-decoration:none}
+
+#main{width:1200px;clear:both;height:370px;margin:20px auto;display:flex;justify-content:space-between;}
+#main ul li{background:url(/public/image/list.png) no-repeat 4px 14px;text-indent:12px;color:#333;line-height:32px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+#main ul li{font-size:14px;}
+#main ul li a{color:#333}
+#main ul li:hover{color:#3c85db}
+#main ul li:hover a{color:#3c85db}
+#main ul li span{color:#929292;float:right;font-size:12px;}
+
+#main .more{position:absolute;top:10px;right:5px;color:#999}
+#main .more a:hover{color:#267bd4;text-decoration:none}
+
+/*媒体聚焦*/
+#main .mtjj{width:360px;position:relative}
+
+/*校园快讯*/
+#main .xykx{width:360px;position:relative}
+
+/*通知公告*/
+#main .tzgg{width:360px;position:relative}
+
+
+#footer{width:1200px;margin:auto;background-color:#168eda;padding:40px 0;margin-top:15px;}
+#footer p{color:#fff;text-align:center}

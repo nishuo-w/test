@@ -1,0 +1,12 @@
+[ 2022-03-13T11:30:50+08:00 ] 127.0.0.1 /home/header
+ERR: 无法加载控制器:Header
+
+[ 2022-03-13T11:35:35+08:00 ] 127.0.0.1 /home/index/
+ERR: 模板不存在:./Application/Home/View/header.html
+
+[ 2022-03-13T16:00:24+08:00 ] 127.0.0.1 /home/index/header
+ERR: 非法操作:header
+
+[ 2022-03-13T16:01:04+08:00 ] 127.0.0.1 /home/index/header
+ERR: 模板不存在:./Application/Home/View/Index/header.html
+

@@ -1,0 +1,2510 @@
+[ 2019-09-13T16:55:53+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005008s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0579s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0645s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm   [ RunTime:0.3986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006073s ]
+
+[ 2019-09-13T17:02:09+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007448s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.4536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm= ) 
+
+[ 2019-09-13T17:02:34+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006556s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.2327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006493s ]
+
+[ 2019-09-13T17:03:46+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009550s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.4871s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm   [ RunTime:0.0152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007873s ]
+
+[ 2019-09-13T17:04:46+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007498s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.4107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm   [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.221325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.221556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019052s ]
+
+[ 2019-09-13T17:04:59+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006918s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005215s ]
+
+[ 2019-09-13T17:06:46+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006959s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0219s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008936s ]
+
+[ 2019-09-13T17:13:41+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009446s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0218s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0629s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: bjcount E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006347s ]
+
+[ 2019-09-13T17:15:35+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0228s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008793s ]
+
+[ 2019-09-13T17:16:22+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006332s ]
+
+[ 2019-09-13T17:16:38+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008399s ]
+
+[ 2019-09-13T17:26:03+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007053s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0305s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+ERR: 1052:Column 'xbdm' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm=01 ) LIMIT 0,10  
+ERR: 1052:Column 'xbdm' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm=01 ) LIMIT 0,10  
+
+[ 2019-09-13T17:26:05+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004912s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0355s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+ERR: 1052:Column 'xbdm' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm=01 ) LIMIT 0,10  
+ERR: 1052:Column 'xbdm' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm=01 ) LIMIT 0,10  
+
+[ 2019-09-13T17:26:08+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004144s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0385s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0011s ]
+ERR: 1052:Column 'xbdm' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm=01 ) LIMIT 0,10  
+ERR: 1052:Column 'xbdm' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( xbdm=01 ) LIMIT 0,10  
+
+[ 2019-09-13T17:26:33+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008166s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0279s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006393s ]
+
+[ 2019-09-13T17:27:01+08:00 ] 127.0.0.1 /Home/Index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006083s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0224s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009271s ]
+
+[ 2019-09-13T17:27:09+08:00 ] 127.0.0.1 /home/index/index/xbdm//page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004512s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0188s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+ERR: 1054:Unknown column 'page' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=page ) LIMIT 1  
+ERR: 1054:Unknown column 'page' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=page ) LIMIT 1  
+
+[ 2019-09-13T17:27:45+08:00 ] 127.0.0.1 /home/index/index/xbdm/01/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004994s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006557s ]
+
+[ 2019-09-13T17:28:18+08:00 ] 127.0.0.1 /home/index/index/xbdm/01/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006497s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 10,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010702s ]
+
+[ 2019-09-13T17:28:24+08:00 ] 127.0.0.1 /home/index/index/xbdm//page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006803s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0339s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+ERR: 1054:Unknown column 'page' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=page ) LIMIT 1  
+ERR: 1054:Unknown column 'page' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=page ) LIMIT 1  
+
+[ 2019-09-13T17:28:36+08:00 ] 127.0.0.1 /home/index/index/xbdm/01/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006583s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 10,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006069s ]
+
+[ 2019-09-13T17:28:43+08:00 ] 127.0.0.1 /home/index/index/xbdm/01/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006179s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 20,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006265s ]
+
+[ 2019-09-13T17:29:08+08:00 ] 127.0.0.1 /home/index/index/xbdm/01/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.2299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 20,10   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004968s ]
+
+[ 2019-09-13T17:29:10+08:00 ] 127.0.0.1 /home/index/index/xbdm//page/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006111s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0334s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+ERR: 1054:Unknown column 'page' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=page ) LIMIT 1  
+ERR: 1054:Unknown column 'page' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=page ) LIMIT 1  
+
+[ 2019-09-13T17:30:55+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007541s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 20,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005167s ]
+
+[ 2019-09-13T17:32:11+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006638s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 20,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007586s ]
+
+[ 2019-09-13T17:32:16+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008867s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 40,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005813s ]
+
+[ 2019-09-13T17:32:18+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004352s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 40,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006297s ]
+
+[ 2019-09-13T17:32:20+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005377s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007537s ]
+
+[ 2019-09-13T17:32:23+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003514s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 10,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007501s ]
+
+[ 2019-09-13T17:32:26+08:00 ] 127.0.0.1 /home/index/index/xbdm/03/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007297s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 30,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009777s ]
+
+[ 2019-09-13T17:32:29+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007356s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006129s ]
+
+[ 2019-09-13T17:32:33+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007625s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0341s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007593s ]
+
+[ 2019-09-13T17:32:41+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010070s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.1485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 40,10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006335s ]
+
+[ 2019-09-13T17:32:43+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008124s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006305s ]
+
+[ 2019-09-13T17:32:46+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006920s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007163s ]
+
+[ 2019-09-13T17:33:27+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006008s ]
+
+[ 2019-09-13T17:33:41+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005495s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0302s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007170s ]
+
+[ 2019-09-13T17:35:14+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008750s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005283s ]
+
+[ 2019-09-13T17:35:55+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008262s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0309s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007238s ]
+
+[ 2019-09-13T17:36:03+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004867s ]
+
+[ 2019-09-13T17:36:14+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006788s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009241s ]
+
+[ 2019-09-13T17:38:17+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008676s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.3816s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004209s ]
+
+[ 2019-09-13T17:38:45+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005400s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 30,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007527s ]
+
+[ 2019-09-13T17:39:12+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010140s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.6940s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 40,10   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006440s ]
+
+[ 2019-09-13T17:39:17+08:00 ] 127.0.0.1 /home/index/index/xbdm/05/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004017s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0956s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=05 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=05 ) LIMIT 0,10   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000559s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006269s ]
+
+[ 2019-09-13T17:39:25+08:00 ] 127.0.0.1 /home/index/index/xbdm/02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006650s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.7500s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=02 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=02 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005584s ]
+
+[ 2019-09-13T17:39:29+08:00 ] 127.0.0.1 /home/index/index/xbdm/02/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007807s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=02 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=02 ) LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005964s ]
+
+[ 2019-09-13T17:39:32+08:00 ] 127.0.0.1 /home/index/index/xbdm/02/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004870s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=02 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=02 ) LIMIT 40,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006639s ]
+
+[ 2019-09-13T17:40:51+08:00 ] 127.0.0.1 /home/index/index/xbdm/02/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006695s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=02 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=02 ) LIMIT 40,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004955s ]
+
+[ 2019-09-13T17:54:23+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007673s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0453s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) FROM `xbdm` WHERE ( xbdm= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) FROM `xbdm` WHERE ( xbdm= ) 
+
+[ 2019-09-13T17:55:37+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006056s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0311s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` WHERE ( xbdm= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` WHERE ( xbdm= ) 
+
+[ 2019-09-13T17:59:42+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009973s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` WHERE ( xbdm= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` WHERE ( xbdm= ) 
+
+[ 2019-09-13T17:59:44+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006610s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0900s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` WHERE ( xbdm= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` WHERE ( xbdm= ) 
+
+[ 2019-09-13T18:04:16+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009211s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0214s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.203948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025096s ]
+
+[ 2019-09-13T18:04:31+08:00 ] 127.0.0.1 /home/index/index/xbdm/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007750s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0224s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+
+[ 2019-09-13T18:04:59+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009231s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0976s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006138s ]
+
+[ 2019-09-13T18:05:17+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0273s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007999s ]
+
+[ 2019-09-13T18:05:28+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0316s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006079s ]
+
+[ 2019-09-13T18:06:55+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008128s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0207s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008457s ]
+
+[ 2019-09-13T18:07:08+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002740s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0135s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008192s ]
+
+[ 2019-09-13T18:07:33+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005090s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0247s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004987s ]
+
+[ 2019-09-13T18:08:55+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006903s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0194s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007495s ]
+
+[ 2019-09-13T18:09:07+08:00 ] 127.0.0.1 /home/index/index/xbdm/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010664s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0677s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+
+[ 2019-09-13T18:10:24+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008054s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0359s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+
+[ 2019-09-13T18:11:07+08:00 ] 127.0.0.1 /home/index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006950s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0284s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006563s ]
+
+[ 2019-09-13T18:13:05+08:00 ] 127.0.0.1 /home/index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004725s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012351s ]
+
+[ 2019-09-13T18:13:07+08:00 ] 127.0.0.1 /home/index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006273s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0241s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006966s ]
+
+[ 2019-09-13T18:13:18+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007506s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 13 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm= ) LIMIT 1  
+
+[ 2019-09-13T18:13:33+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006755s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.1809s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007257s ]
+
+[ 2019-09-13T18:13:40+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009587s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0234s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005341s ]
+
+[ 2019-09-13T18:14:17+08:00 ] 127.0.0.1 /home/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009956s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0218s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006579s ]
+
+[ 2019-09-13T18:14:19+08:00 ] 127.0.0.1 /home/index/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004671s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.2177s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006620s ]
+
+[ 2019-09-13T18:14:43+08:00 ] 127.0.0.1 /home/index/index/xbdm/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004770s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.1075s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007968s ]
+
+[ 2019-09-13T18:14:45+08:00 ] 127.0.0.1 /home/index/index/xbdm/11/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002847s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 30,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006781s ]
+
+[ 2019-09-13T18:14:48+08:00 ] 127.0.0.1 /home/index/index/xbdm/11/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006233s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 20,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004224s ]
+
+[ 2019-09-13T18:14:48+08:00 ] 127.0.0.1 /home/index/index/xbdm/11/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003884s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 20,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008429s ]
+
+[ 2019-09-13T18:14:50+08:00 ] 127.0.0.1 /home/index/index/xbdm/11/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003812s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008064s ]
+
+[ 2019-09-13T18:14:54+08:00 ] 127.0.0.1 /home/index/index/xbdm/11/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004576s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 10,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006542s ]
+
+[ 2019-09-13T18:18:17+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006444s ]
+ERR: 无法加载控制器:Index
+
+[ 2019-09-13T18:19:05+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+NOTIC: [8] Undefined index: xbdm E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0275s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006658s ]
+
+[ 2019-09-13T18:19:09+08:00 ] 127.0.0.1 /home/index/index/xbdm/03
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005120s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.4902s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003756s ]
+
+[ 2019-09-13T18:19:32+08:00 ] 127.0.0.1 /home/index/index/xbdm/03
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006254s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0200s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006223s ]
+
+[ 2019-09-13T18:19:33+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007031s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006418s ]
+
+[ 2019-09-13T18:19:57+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008793s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0331s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006747s ]
+
+[ 2019-09-13T18:20:02+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006984s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 30,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006207s ]
+
+[ 2019-09-13T18:20:04+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01/page/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002994s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 50,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006472s ]
+
+[ 2019-09-13T18:20:05+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01/page/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007426s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 60,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006834s ]
+
+[ 2019-09-13T18:20:07+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01/page/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006618s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 80,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006033s ]
+
+[ 2019-09-13T18:20:20+08:00 ] 127.0.0.1 /home/index/index/xbdm/01/page/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004394s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0193s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004391s ]
+
+[ 2019-09-13T18:20:24+08:00 ] 127.0.0.1 /home/manage/index/xbdm/02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005618s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.1041s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=02 ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=02 ) LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006739s ]
+
+[ 2019-09-13T18:20:37+08:00 ] 127.0.0.1 /home/manage/index/xbdm/02/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006493s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=02 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=02 ) LIMIT 40,10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010814s ]
+
+[ 2019-09-13T18:21:03+08:00 ] 127.0.0.1 /home/index/index/xbdm/02/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009466s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0191s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006631s ]
+
+[ 2019-09-13T18:21:11+08:00 ] 127.0.0.1 /home/manage/index/xbdm/04
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.7056s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=04 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=04 ) LIMIT 0,10   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005764s ]
+
+[ 2019-09-13T18:22:16+08:00 ] 127.0.0.1 /home/manage/index/xbdm/04/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008537s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=04 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=04 ) LIMIT 20,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008853s ]
+
+[ 2019-09-13T18:22:20+08:00 ] 127.0.0.1 /home/index/index/xbdm/04/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010640s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0951s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009599s ]
+
+[ 2019-09-13T18:22:27+08:00 ] 127.0.0.1 /home/manage/index/xbdm/06
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006393s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0191s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=06 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=06 ) LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005146s ]
+
+[ 2019-09-13T18:22:31+08:00 ] 127.0.0.1 /home/manage/index/xbdm/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.1392s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=10 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=10 ) LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015918s ]
+
+[ 2019-09-13T18:22:38+08:00 ] 127.0.0.1 /home/manage/index/xbdm/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006766s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0222s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007251s ]
+
+[ 2019-09-13T18:22:48+08:00 ] 127.0.0.1 /home/manage/index/xbdm/11/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004474s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=11 ) LIMIT 30,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003959s ]
+
+[ 2019-09-13T18:24:27+08:00 ] 127.0.0.1 /home/index/index/xbdm/04/page/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006370s ]
+SQL: SHOW COLUMNS FROM `xbdm` [ RunTime:0.0208s ]
+SQL: SELECT xbdm.xbdm,`xbmc`,count(bh) as bjs FROM `xbdm` INNER JOIN bj on xbdm.xbdm=bj.xbdm  GROUP BY xbdm.xbdm  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009818s ]
+
+[ 2019-09-13T18:24:30+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004420s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0214s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009802s ]
+
+[ 2019-09-13T18:24:32+08:00 ] 127.0.0.1 /home/manage/index/xbdm/01/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=01 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=01 ) LIMIT 40,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004449s ]
+
+[ 2019-09-13T18:24:45+08:00 ] 127.0.0.1 /home/manage/index/xbdm/06
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004481s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0858s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=06 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=06 ) LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006485s ]
+
+[ 2019-09-13T18:24:48+08:00 ] 127.0.0.1 /home/manage/index/xbdm/06/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007622s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=06 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=06 ) LIMIT 40,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009236s ]
+
+[ 2019-09-13T18:24:56+08:00 ] 127.0.0.1 /home/manage/index/xbdm/03
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007063s ]
+SQL: SHOW COLUMNS FROM `bj` [ RunTime:0.0702s ]
+NOTIC: [8] Undefined index: page E:\PHP\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.tp.com\Application\Home\Controller\ManageController.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `bj` WHERE ( xbdm=03 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `xbmc`,`bh`,`bj`,`nj`,`xz` FROM `bj` INNER JOIN xbdm on bj.xbdm=xbdm.xbdm  WHERE ( bj.xbdm=03 ) LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004134s ]
+

@@ -1,0 +1,42 @@
+[ 2022-02-12T20:51:58+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2022-02-12T20:59:01+08:00 ] 127.0.0.1 /Public/css/layout.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T20:59:15+08:00 ] 127.0.0.1 /Public/css/layout.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T21:00:11+08:00 ] 127.0.0.1 /Public/css/bg.png
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T21:00:18+08:00 ] 127.0.0.1 /Public/css/bg.png
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T21:03:24+08:00 ] 127.0.0.1 /Public/css/bg.png
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:38:17+08:00 ] 127.0.0.1 /img/index/search.png
+ERR: 无法加载模块:Img
+
+[ 2022-02-12T22:40:42+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:41:30+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:43:19+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:43:47+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:44:39+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:46:33+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+
+[ 2022-02-12T22:46:58+08:00 ] 127.0.0.1 /public/css/show.css
+ERR: 无法加载模块:Public
+

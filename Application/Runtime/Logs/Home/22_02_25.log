@@ -1,0 +1,616 @@
+[ 2022-02-25T11:49:46+08:00 ] 127.0.0.1 /index.php/Home/Comment/ajax_statu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006668s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0039s ]
+SQL: UPDATE `blog_comment` SET `statu`='2' WHERE `id` = 1 [ RunTime:0.0192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005763s ]
+
+[ 2022-02-25T12:47:08+08:00 ] 127.0.0.1 /home/index/showblog/id/185
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_collect` WHERE ( aid=185 and uid= ) 
+
+[ 2022-02-25T12:47:23+08:00 ] 127.0.0.1 /home/index/showblog/id/185
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_collect` WHERE ( aid=185 and uid= ) 
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:49+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:47:50+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:47:50+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:06+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:13+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:52:15+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:33+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:57:41+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:25+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T12:59:26+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T12:59:26+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:36+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:38+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:39+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:39+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:39+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:39+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:39+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:22:45+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:36+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:26:41+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:28:41+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:41+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:28:42+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:29:23+08:00 ] 127.0.0.1 /index.php/Home/Login/insert.html
+ERR: 非法操作:insert
+
+[ 2022-02-25T13:29:26+08:00 ] 127.0.0.1 /index.php/Home/Login/insert.html
+ERR: 非法操作:insert
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:37:19+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:20+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:20+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:20+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:37:20+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:37:20+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:06+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T13:38:10+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-25T19:46:03+08:00 ] 127.0.0.1 /home/login/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-25T20:11:07+08:00 ] 127.0.0.1 /home/admi/login
+ERR: 无法加载控制器:Admi
+
+[ 2022-02-25T20:14:09+08:00 ] 127.0.0.1 /home/admin/login
+ERR: 1054:Unknown column 'nickname' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_admin` WHERE ( nickname='wei' and password='wei' ) 
+
+[ 2022-02-25T20:24:50+08:00 ] 127.0.0.1 /home/admi/login
+ERR: 无法加载控制器:Admi
+

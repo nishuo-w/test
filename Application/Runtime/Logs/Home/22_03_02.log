@@ -1,0 +1,25 @@
+[ 2022-03-02T14:49:24+08:00 ] 127.0.0.1 /home/comment/addcomment/aid/190?text=%E4%BA%BA&submit=%E5%8F%91%E5%B8%83
+ERR: 1054:Unknown column 'user_id' in 'field list'
+ [ SQL语句 ] : insert into blog_comment(user_id,article_id,text,statu,time) values(21,190,'人',1,CURDATE())
+
+[ 2022-03-02T20:16:53+08:00 ] 127.0.0.1 /home/welcome.html
+ERR: 无法加载控制器:Welcome
+
+[ 2022-03-02T20:59:37+08:00 ] 127.0.0.1 /home/index/addblogdata/id/211
+ERR: 1146:Table 'blog.blog_' doesn't exist
+ [ SQL语句 ] : UPDATE `blog_` SET `user_id`=NULL,`type_id`='1',`title`='你说',`content`='本期训练营特邀专业编辑出品课程内容，专注扫除写作中遇到的种种问题，让你会选题、搭结构、会表达，教你写出优质的技术文章。
+
+不知道写什么，总想搞个大新闻？害怕写的不好被嘲？
+你写作的目的是什么，为了换工作、升职加薪还是日常写作获得自我成长？
+你了解自己的优势是什么吗？如何才能找到写作突破口？
+写作新手/非技术大牛适合写哪些内容可以更快获得正反馈？
+10篇水文不如1篇高质量文章，金三银四面试季来临，你的文章真的可以为你加分吗？
+……
+
+本期训练营名额有限，先到先得只要你报名（下滑有报名入口）参与本期创作者训练营，按要求完成作业，你的文章都能收到训练营导师/运营点评，获得结业证书。
+
+作者：掘金酱
+链接：https://juejin.cn/post/7064192649523101726
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。',`keywords`='nishuo' WHERE ( id=211 )
+

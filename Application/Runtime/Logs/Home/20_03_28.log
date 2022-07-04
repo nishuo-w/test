@@ -1,0 +1,604 @@
+[ 2020-03-28T10:58:50+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011128s ]
+
+[ 2020-03-28T10:58:51+08:00 ] 127.0.0.1 /index.php/home/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000996s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Undefined variable: msg D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\c738ce3f76a31820b13902acb02df87d.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013758s ]
+
+[ 2020-03-28T10:58:52+08:00 ] 127.0.0.1 /home/admin/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000484s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002085s ]
+
+[ 2020-03-28T10:59:08+08:00 ] 127.0.0.1 /home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `news_admin` [ RunTime:0.1080s ]
+SQL: SELECT * FROM `news_admin` WHERE ( username='admin' )  [ RunTime:0.0021s ]
+
+[ 2020-03-28T10:59:08+08:00 ] 127.0.0.1 /index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2020-03-28T10:59:08+08:00 ] 127.0.0.1 /index.php/Home/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004041s ]
+
+[ 2020-03-28T10:59:11+08:00 ] 127.0.0.1 /home/admin/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: select id,name from news_type [ RunTime:0.0589s ]
+SQL: select * from news_article where id='' [ RunTime:0.0692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 107 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 125 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 131 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 138 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 146 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2020-03-28T10:59:18+08:00 ] 127.0.0.1 /home/admin/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+SQL: select id,name from news_type [ RunTime:0.0003s ]
+SQL: select * from news_article where id='' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 107 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 125 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 131 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 138 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 146 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2020-03-28T10:59:20+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: select id,name from news_type  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.1967s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0081s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  ORDER BY time desc LIMIT 0,10   [ RunTime:0.1311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2020-03-28T10:59:22+08:00 ] 127.0.0.1 /home/admin/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002767s ]
+SQL: select id,name from news_type [ RunTime:0.0003s ]
+SQL: select * from news_article where id='' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 107 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 125 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 131 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 138 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 146 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2020-03-28T10:59:25+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: select id,name from news_type  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  ORDER BY time desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2020-03-28T10:59:27+08:00 ] 127.0.0.1 /home/admin/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: select id,name from news_type [ RunTime:0.0003s ]
+SQL: select * from news_article where id='' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 103 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 107 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 125 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 131 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 138 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 146 行.
+NOTIC: [8] Undefined offset: 0 D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\a915ee3ab96f29e5eac29b1a7d7b9d67.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2020-03-28T10:59:31+08:00 ] 127.0.0.1 /home/admin/menulist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+SQL: select * from news_type [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002989s ]
+
+[ 2020-03-28T10:59:34+08:00 ] 127.0.0.1 /home/admin/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id [ RunTime:0.6044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2020-03-28T11:00:01+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+SQL: select id,name from news_type  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0018s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  ORDER BY time desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001879s ]
+
+[ 2020-03-28T13:45:34+08:00 ] 127.0.0.1 /index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004621s ]
+
+[ 2020-03-28T13:45:34+08:00 ] 127.0.0.1 /index.php/Home/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2020-03-28T13:45:35+08:00 ] 127.0.0.1 /home/admin/menulist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004101s ]
+SQL: select * from news_type [ RunTime:0.0161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006285s ]
+
+[ 2020-03-28T13:45:39+08:00 ] 127.0.0.1 /home/admin/saveorders
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004068s ]
+ERR: 非法操作:saveorders
+
+[ 2020-03-28T13:45:49+08:00 ] 127.0.0.1 /home/admin/menulist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004392s ]
+SQL: select * from news_type [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003927s ]
+
+[ 2020-03-28T13:45:50+08:00 ] 127.0.0.1 /home/admin/adminlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004864s ]
+SQL: select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003230s ]
+
+[ 2020-03-28T13:45:53+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004963s ]
+SQL: select id,name from news_type  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0041s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  ORDER BY time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003987s ]
+
+[ 2020-03-28T13:45:57+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+SQL: select id,name from news_type  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant s1 - assumed 's1' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0188s ]
+SQL: SELECT news_article.id as id,`cid`,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( cid=1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant s2 - assumed 's2' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0043s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( title like '%%' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0267s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0090s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( time between '' and ''  ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004102s ]
+
+[ 2020-03-28T13:46:01+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004197s ]
+SQL: select id,name from news_type  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant s1 - assumed 's1' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0047s ]
+SQL: SELECT news_article.id as id,`cid`,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( cid=5 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant s2 - assumed 's2' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0042s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( title like '%%' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( time between '' and ''  ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004431s ]
+
+[ 2020-03-28T13:46:09+08:00 ] 127.0.0.1 /home/admin/newslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+SQL: select id,name from news_type  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_article` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant s1 - assumed 's1' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0040s ]
+SQL: SELECT news_article.id as id,`cid`,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( cid=0 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant s2 - assumed 's2' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 199 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0046s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( title like '%%' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\AdminController.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0037s ]
+SQL: SELECT news_article.id as id,`name`,`title`,`author`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( time between '2020-03-05' and '2020-03-12'  ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+NOTIC: [8] Undefined index: cid D:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Runtime\Cache\Home\077d9af853f3e0bb551d70f559d082e1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003974s ]
+

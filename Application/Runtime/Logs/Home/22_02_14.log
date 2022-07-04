@@ -1,0 +1,143 @@
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-14T19:41:34+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-14T20:14:07+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:07+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/messages_zh.min.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:09+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:09+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/messages_zh.min.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:10+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/messages_zh.min.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:10+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:10+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/messages_zh.min.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:12+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T20:14:12+08:00 ] 127.0.0.1 /home/index/lib/jquery.validation/1.14.0/messages_zh.min.js
+ERR: 非法操作:lib
+
+[ 2022-02-14T21:45:51+08:00 ] 127.0.0.1 /home/index/addblog
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: select id,name from blog_type [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2022-02-14T21:45:51+08:00 ] 127.0.0.1 /home/index/addblog
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 15 行.
+SQL: select id,name from blog_type [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002330s ]
+
+[ 2022-02-14T21:48:58+08:00 ] 127.0.0.1 /home/index/register%7D
+ERR: 非法操作:register}
+
+[ 2022-02-14T21:49:34+08:00 ] 127.0.0.1 /home/index/register%7D
+ERR: 非法操作:register}
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-14T21:53:41+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+

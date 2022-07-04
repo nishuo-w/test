@@ -1,0 +1,506 @@
+[ 2022-01-24T20:50:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008630s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select id from news_type where name='学校要闻' [ RunTime:0.0011s ]
+SQL: select id,cid,title,time from news_article where cid=1 order by time desc limit 7 [ RunTime:0.0203s ]
+SQL: select id from news_type where name='媒体聚焦' [ RunTime:0.0003s ]
+SQL: select id,cid,title,time from news_article where cid=2 order by time desc limit 10 [ RunTime:0.0004s ]
+SQL: select id from news_type where name='校园快讯' [ RunTime:0.0002s ]
+SQL: select id,cid,title,time from news_article where cid=3 order by time desc limit 10 [ RunTime:0.0003s ]
+SQL: select id from news_type where name='通知公告' [ RunTime:0.0002s ]
+SQL: select id,cid,title,time from news_article where cid=4 order by time desc limit 10 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007374s ]
+
+[ 2022-01-24T20:50:10+08:00 ] 127.0.0.1 /home/index/show/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005556s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0081s ]
+SQL: SELECT news_article.id as id,`cid`,`name`,`title`,`author`,`content`,`imagepath`,`views`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( news_article.id=9 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+SQL: UPDATE `news_article` SET `views`=views+1 WHERE ( id=9 ) [ RunTime:0.1026s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `news_article` WHERE ( id<9 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `news_article` WHERE ( id>9 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005227s ]
+
+[ 2022-01-24T21:40:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005136s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select id from news_type where name='学校要闻' [ RunTime:0.0004s ]
+SQL: select id,cid,title,time from news_article where cid=1 order by time desc limit 7 [ RunTime:0.0005s ]
+SQL: select id from news_type where name='媒体聚焦' [ RunTime:0.0003s ]
+SQL: select id,cid,title,time from news_article where cid=2 order by time desc limit 10 [ RunTime:0.0004s ]
+SQL: select id from news_type where name='校园快讯' [ RunTime:0.0002s ]
+SQL: select id,cid,title,time from news_article where cid=3 order by time desc limit 10 [ RunTime:0.0002s ]
+SQL: select id from news_type where name='通知公告' [ RunTime:0.0002s ]
+SQL: select id,cid,title,time from news_article where cid=4 order by time desc limit 10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006008s ]
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005510s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008080s ]
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005311s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/css/register.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005507s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:css
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007334s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005240s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007288s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006697s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:css
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004565s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007658s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008332s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008589s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:08+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005026s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:js
+
+[ 2022-01-24T21:41:09+08:00 ] 127.0.0.1 /home/index/css/register.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007930s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:css
+
+[ 2022-01-24T21:41:09+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010446s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 非法操作:css
+
+[ 2022-01-24T21:41:22+08:00 ] 127.0.0.1 /home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005103s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005012s ]
+
+[ 2022-01-24T21:51:05+08:00 ] 127.0.0.1 /home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006060s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2022-01-24T21:51:24+08:00 ] 127.0.0.1 /home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004844s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005653s ]
+
+[ 2022-01-24T21:51:32+08:00 ] 127.0.0.1 /home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006063s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005824s ]
+
+[ 2022-01-24T21:51:49+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+ERR: 1146:Table 'blog.news_type' doesn't exist
+ [ SQL语句 ] : select id from news_type where name='学校要闻'
+ERR: 1146:Table 'blog.news_type' doesn't exist
+ [ SQL语句 ] : select id from news_type where name='学校要闻'
+
+[ 2022-01-24T21:53:05+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007529s ]
+
+[ 2022-01-24T21:53:07+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005391s ]
+
+[ 2022-01-24T21:53:08+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005041s ]
+
+[ 2022-01-24T21:53:09+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004115s ]
+
+[ 2022-01-24T21:54:59+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005821s ]
+
+[ 2022-01-24T21:55:01+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005236s ]
+
+[ 2022-01-24T21:55:09+08:00 ] 127.0.0.1 /home/index/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002874s ]
+NOTIC: [8] Constant APP_DEBUG already defined E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: list E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Undefined variable: data1 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 163 行.
+NOTIC: [8] Undefined variable: list2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [8] Undefined variable: data2 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+NOTIC: [8] Undefined variable: list3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 185 行.
+NOTIC: [8] Undefined variable: data3 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 189 行.
+NOTIC: [8] Undefined variable: list4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 198 行.
+NOTIC: [8] Undefined variable: data4 E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004910s ]
+

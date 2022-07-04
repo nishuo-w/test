@@ -1,0 +1,12 @@
+[ 2020-05-14T12:44:19+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006980s ]
+ERR: 无法加载模块:Favicon
+
+[ 2020-05-14T14:17:16+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009513s ]
+ERR: 无法加载模块:Favicon
+

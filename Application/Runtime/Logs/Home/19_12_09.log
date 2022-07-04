@@ -1,0 +1,191 @@
+[ 2019-12-09T20:22:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.078960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.079066s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\UPUPW_AP5.5\vhosts\www.cms.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_category` [ RunTime:0.6886s ]
+SQL: SELECT * FROM `cms_category` WHERE ( pid=0 )  [ RunTime:0.0263s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.6614s ]
+SQL: SELECT * FROM `cms_article` LIMIT 0,5   [ RunTime:0.0516s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.1224s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.0893s ]
+SQL: SELECT * FROM `cms_article` ORDER BY views desc LIMIT 0,6   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.604949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.605133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.104408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.104506s ]
+
+[ 2019-12-09T20:22:55+08:00 ] 127.0.0.1 /home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009714s ]
+
+[ 2019-12-09T20:22:55+08:00 ] 127.0.0.1 /index.php/home/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: msg D:\UPUPW_AP5.5\vhosts\www.cms.com\Application\Runtime\Cache\Home\c738ce3f76a31820b13902acb02df87d.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004647s ]
+
+[ 2019-12-09T20:22:57+08:00 ] 127.0.0.1 /home/admin/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017842s ]
+
+[ 2019-12-09T20:23:09+08:00 ] 127.0.0.1 /index.php/home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008547s ]
+
+[ 2019-12-09T20:23:10+08:00 ] 127.0.0.1 /home/admin/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005726s ]
+
+[ 2019-12-09T20:23:21+08:00 ] 127.0.0.1 /index.php/home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009282s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( name='admin' )  [ RunTime:0.0007s ]
+
+[ 2019-12-09T20:23:21+08:00 ] 127.0.0.1 /index.php/Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005643s ]
+
+[ 2019-12-09T20:23:22+08:00 ] 127.0.0.1 /index.php/Home/Admin/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013153s ]
+ERR: 非法操作:welcome
+
+[ 2019-12-09T20:23:27+08:00 ] 127.0.0.1 /home/admin/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007715s ]
+SQL: select id,name from cms_category where pid=0 order by sort [ RunTime:0.0003s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=1 [ RunTime:0.0002s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=2 [ RunTime:0.0003s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=3 [ RunTime:0.0002s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=4 [ RunTime:0.0003s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=5 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006888s ]
+
+[ 2019-12-09T20:23:34+08:00 ] 127.0.0.1 /home/admin/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007463s ]
+SQL: select id,name from cms_category where pid=0 order by sort [ RunTime:0.0003s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=1 [ RunTime:0.0003s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=2 [ RunTime:0.0002s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=3 [ RunTime:0.0002s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=4 [ RunTime:0.0002s ]
+SQL: select id,pid,concat('----',name) as name from cms_category where pid=5 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004990s ]
+

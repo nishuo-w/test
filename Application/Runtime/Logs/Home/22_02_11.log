@@ -1,0 +1,172 @@
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/jquery-3.3.1.min.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/popper.min.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/index.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/js/wow.min.js
+ERR: 非法操作:js
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/css/register.css
+ERR: 非法操作:css
+
+[ 2022-02-11T20:13:51+08:00 ] 127.0.0.1 /home/index/css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2022-02-11T20:28:19+08:00 ] 127.0.0.1 /home/admin/newslist
+ERR: 1146:Table 'blog.news_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_article`
+
+[ 2022-02-11T20:31:29+08:00 ] 127.0.0.1 /home/admin/newslist
+ERR: 1146:Table 'blog.news_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `news_article`
+
+[ 2022-02-11T20:37:39+08:00 ] 127.0.0.1 /home/admin/newslist
+ERR: 1054:Unknown column 'nickname' in 'field list'
+ [ SQL语句 ] : SELECT blog_article.id as id,`nickname`,`title`,`time` FROM `blog_article` INNER JOIN blog_type on blog_type.id=blog_article.cid  ORDER BY time desc LIMIT 0,10  
+
+[ 2022-02-11T20:39:52+08:00 ] 127.0.0.1 /home/admin/newslist
+ERR: 1054:Unknown column 'blog_article.cid' in 'on clause'
+ [ SQL语句 ] : SELECT blog_article.id as id,`nickname`,`title`,`time` FROM `blog_article` left join blog_user on blog_article.user_id= blog_user.id INNER JOIN blog_type on blog_type.id=blog_article.cid  ORDER BY time desc LIMIT 0,10  
+
+[ 2022-02-11T21:08:04+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:11:56+08:00 ] 127.0.0.1 /home/admin/newslist
+ERR: 1054:Unknown column 'news_type.id' in 'on clause'
+ [ SQL语句 ] : SELECT blog_article.id as id,`nickname`,`name`,`title`,`time` FROM `blog_article` left join blog_user on blog_article.user_id= blog_user.id INNER JOIN blog_type on news_type.id=blog_article.type_id  WHERE ( time between '2022-02-02' and '2022-02-07'  ) ORDER BY time desc LIMIT 0,10  
+
+[ 2022-02-11T21:15:14+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:18:12+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:18:14+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:18:43+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:19:45+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:22:40+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:22:41+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:22:45+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1146:Table 'blog.news_admin' doesn't exist
+ [ SQL语句 ] : select news_admin.id as id,username,password,email,name from news_admin left join news_right on news_admin.right_id=news_right.id
+
+[ 2022-02-11T21:24:13+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : select blog_admin.id as id,username,password,email,name from blog_admin left join blog_right on blog_admin.right_id=blog_right.id
+
+[ 2022-02-11T21:25:17+08:00 ] 127.0.0.1 /home/admin/adminlist
+ERR: 1054:Unknown column 'blog_right.id' in 'on clause'
+ [ SQL语句 ] : select blog_admin.id as id,username,password,email from blog_admin left join blog_right on blog_admin.right_id=blog_right.id
+
+[ 2022-02-11T21:46:32+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAll.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003946s ]
+NOTIC: [8] Use of undefined constant str - assumed 'str' E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\AdminController.class.php 第 274 行.
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0119s ]
+SQL: DELETE FROM `blog_type` WHERE ( id in (31,32) ) [ RunTime:0.0285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014342s ]
+
+[ 2022-02-11T21:51:47+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAllMenu.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+NOTIC: [8] Use of undefined constant str - assumed 'str' E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.blog.com\Application\Home\Controller\AdminController.class.php 第 274 行.
+SQL: SHOW COLUMNS FROM `blog_type` [ RunTime:0.0031s ]
+SQL: DELETE FROM `blog_type` WHERE ( id in (33,34) ) [ RunTime:0.0125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2022-02-11T21:55:54+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAllUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003362s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0036s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on) )' at line 1
+ [ SQL语句 ] : DELETE FROM `blog_admin` WHERE ( id in (on) )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on) )' at line 1
+ [ SQL语句 ] : DELETE FROM `blog_admin` WHERE ( id in (on) )
+
+[ 2022-02-11T21:55:58+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAllUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0032s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on) )' at line 1
+ [ SQL语句 ] : DELETE FROM `blog_admin` WHERE ( id in (on) )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on) )' at line 1
+ [ SQL语句 ] : DELETE FROM `blog_admin` WHERE ( id in (on) )
+
+[ 2022-02-11T21:56:11+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAllUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0028s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on,on) )' at line 1
+ [ SQL语句 ] : DELETE FROM `blog_admin` WHERE ( id in (on,on) )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on,on) )' at line 1
+ [ SQL语句 ] : DELETE FROM `blog_admin` WHERE ( id in (on,on) )
+
+[ 2022-02-11T22:00:57+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAllUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0026s ]
+SQL: DELETE FROM `blog_admin` WHERE ( id in (6) ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002287s ]
+
+[ 2022-02-11T22:01:21+08:00 ] 127.0.0.1 /index.php/Home/Admin/ajax_delAllUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004835s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0087s ]
+SQL: DELETE FROM `blog_admin` WHERE ( id in (5) ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011948s ]
+

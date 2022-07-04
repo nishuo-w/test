@@ -1,0 +1,40 @@
+[ 2022-03-06T13:16:53+08:00 ] 127.0.0.1 /index.php/home/index/php/upload.php?test=dfdf&guid=1646543808483
+ERR: 非法操作:php
+
+[ 2022-03-06T14:39:36+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:40:03+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:54:21+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:55:06+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:55:53+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:56:41+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:57:04+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:57:27+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:57:30+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:57:49+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T14:59:08+08:00 ] 127.0.0.1 /home/index/registerdata
+ERR: 非法操作:registerdata
+
+[ 2022-03-06T15:27:29+08:00 ] 127.0.0.1 /home/login/registerdata
+ERR: 1062:Duplicate entry 'wei' for key 'nickname'
+ [ SQL语句 ] : insert into blog_user(nickname,password,phone,email,pic,addtime) values('wei','74be16979710d4c4e7c6647856088456','1212','2740481164@qq.com','./upload/',CURDATE())
+

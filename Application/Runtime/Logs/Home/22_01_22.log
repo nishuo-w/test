@@ -1,0 +1,58 @@
+[ 2022-01-22T20:20:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005112s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: select id from news_type where name='学校要闻' [ RunTime:0.0439s ]
+SQL: select id,cid,title,time from news_article where cid=1 order by time desc limit 7 [ RunTime:0.0768s ]
+SQL: select id from news_type where name='媒体聚焦' [ RunTime:0.0006s ]
+SQL: select id,cid,title,time from news_article where cid=2 order by time desc limit 10 [ RunTime:0.0009s ]
+SQL: select id from news_type where name='校园快讯' [ RunTime:0.0004s ]
+SQL: select id,cid,title,time from news_article where cid=3 order by time desc limit 10 [ RunTime:0.0004s ]
+SQL: select id from news_type where name='通知公告' [ RunTime:0.0002s ]
+SQL: select id,cid,title,time from news_article where cid=4 order by time desc limit 10 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010510s ]
+
+[ 2022-01-22T20:21:04+08:00 ] 127.0.0.1 /home/index/show/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\UPUPW_AP5.5-1510\UPUPW_AP5.5\vhosts\www.news.com\Application\Home\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0035s ]
+SQL: SELECT news_article.id as id,`cid`,`name`,`title`,`author`,`content`,`imagepath`,`views`,`time` FROM `news_article` INNER JOIN news_type on news_type.id=news_article.cid  WHERE ( news_article.id=26 )  [ RunTime:0.0489s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0191s ]
+SQL: UPDATE `news_article` SET `views`=views+1 WHERE ( id=26 ) [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `news_article` WHERE ( id<26 ) ORDER BY id desc LIMIT 0,1   [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `news_article` WHERE ( id>26 ) ORDER BY id asc LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003388s ]
+

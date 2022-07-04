@@ -1,0 +1,28 @@
+[ 2022-03-14T14:17:10+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2022-03-14T14:17:10+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2022-03-14T14:17:38+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2022-03-14T14:26:19+08:00 ] 127.0.0.1 /
+ERR: SQLSTATE[HY000] [1049] Unknown database 'blog'
+
+[ 2022-03-14T14:27:37+08:00 ] 127.0.0.1 /
+ERR: 1932:Table 'blog.blog_article' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog_article`
+
+[ 2022-03-14T14:27:38+08:00 ] 127.0.0.1 /
+ERR: 1932:Table 'blog.blog_article' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog_article`
+
+[ 2022-03-14T14:27:38+08:00 ] 127.0.0.1 /
+ERR: 1932:Table 'blog.blog_article' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog_article`
+
+[ 2022-03-14T14:27:38+08:00 ] 127.0.0.1 /
+ERR: 1932:Table 'blog.blog_article' doesn't exist in engine
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog_article`
+

@@ -1,0 +1,4 @@
+[ 2022-03-11T12:42:17+08:00 ] 127.0.0.1 /home/index/showblog/id/Array
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT blog_article.id as id,`user_id`,`title`,`name`,`content`,`views`,`nickname`,`likes`,`comments`,`collects`,`time` FROM `blog_article` left join blog_type on blog_type.id=blog_article.type_id left join blog_user on blog_article.user_id= blog_user.id  WHERE ( blog_article.id=Array ) 
+

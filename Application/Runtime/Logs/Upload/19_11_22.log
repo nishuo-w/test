@@ -1,0 +1,72 @@
+[ 2019-11-22T12:04:15+08:00 ] 127.0.0.1 /upload/c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+ERR: 无法加载控制器:C
+
+[ 2019-11-22T12:04:18+08:00 ] 127.0.0.1 /upload/w
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+ERR: 无法加载控制器:W
+
+[ 2019-11-22T15:46:32+08:00 ] 127.0.0.1 /upload/%7B$vo.thumb%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+ERR: 无法加载控制器:{$vo.thumb}
+
+[ 2019-11-22T15:46:33+08:00 ] 127.0.0.1 /upload/%7B$vo.thumb%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007400s ]
+ERR: 无法加载控制器:{$vo.thumb}
+
+[ 2019-11-22T15:46:34+08:00 ] 127.0.0.1 /upload/%7B$vo.thumb%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008737s ]
+ERR: 无法加载控制器:{$vo.thumb}
+
+[ 2019-11-22T15:47:25+08:00 ] 127.0.0.1 /upload/%7B$vo.thumb%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+ERR: 无法加载控制器:{$vo.thumb}
+
+[ 2019-11-22T15:49:50+08:00 ] 127.0.0.1 /upload/%7B$vo.thumb%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005137s ]
+ERR: 无法加载控制器:{$vo.thumb}
+
+[ 2019-11-22T15:49:54+08:00 ] 127.0.0.1 /upload/%7B$vo.thumb%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003703s ]
+ERR: 无法加载控制器:{$vo.thumb}
+

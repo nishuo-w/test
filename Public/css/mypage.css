@@ -1,0 +1,29 @@
+body{
+    background: rgb(244,245,245);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.right-content 
+{
+   background:#fff;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.left-content
+{
+    background:#fff;
+}
+.item-content
+{
+    /*border-top: 1px solid #ccc;*/
+    border-bottom:1px solid #ccc;
+}
+
+
+.item-content .collect a
+{
+    font-size: 13px;
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#FFFFF7}
+
+/*头部*/
+#top{width:1000px;height:80px;line-height:80px;font-size:36px;text-indent:10px;color:#168eda;font-family:"方正姚体";background-color:#F2F2F2;margin:auto;}
+
+/*导航*/
+#nav{margin:auto;width:1000px;height:50px;background-color:#168eda;line-height:50px;display:flex;justify-content:space-around;}
+#nav a{font-size:18px;color:#fff;padding:0px 28px;}
+#nav a:hover{background-color:#47a3da}
+
+#banner{width:1000px;height:260px;margin:auto;margin:2px auto }
+#banner img{width:1000px;height:260px;}
+
+/*当前位置*/
+#main{width:1000px;margin:auto;}
+#main .location{width:1000px;height:35px;line-height:35px;background-color:#69C;color:#fff}
+#main .location a{color:#fff}
+#main .location a:hover{text-decoration:underline}
+
+#main .as{width:1000px;margin:25px auto}
+#main .as h3{width:1000px;text-align:center;color:#000;font-size:20px;}
+#main .as .row{text-align:center;line-height:40px;padding-top:10px;border-bottom:1px dotted #ccc}
+#main .as .row span{margin-right:15px;color:#848484;font-size: 12px;}
+#main .as  a{color:#0073aa}
+#main .as  a:hover{color:#1c99ff}
+#main .as .content{padding:10px 0;margin-bottom: 10px;border-bottom:1px dotted #ccc}
+#main .as .content p{line-height:32px;padding-bottom:10px;text-indent:2em;color:#333;font-family:"宋体";font-size:14px;}
+#main .as .content span{color:#333;font-family:"宋体";font-size:14px;}
+#main .as .content img{width:600px;height:450px;}
+#main .as .change{text-align:center;line-height:30px;}
+

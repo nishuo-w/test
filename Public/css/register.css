@@ -1,0 +1,54 @@
+*{padding:0px;margin:0px;}
+body
+{
+	background:#D0CFD1;
+}
+.register
+{
+    width:500px;
+    height:600px;
+	background:#fff;
+	border-radius:14px;
+	margin-top:10%;
+	margin-bottom:10%;
+}
+.register h3
+{
+    margin-bottom:30px;
+    text-align: center;
+    line-height:100px;
+}
+.register form
+{
+	width:430px;
+	margin:auto;
+}
+.register form div
+{
+    margin-bottom:10px;
+}
+
+.register form span
+{
+    display:inline-block;
+    width:100px;
+    
+}
+.register form input
+{
+    height:40px;
+    width:300px;
+    border:1px solid #999;
+	outline:none;
+}
+
+.register form .signup
+{
+    margin:40px;
+    width:120px;
+    border:none;
+    background:#3981f1;
+    color:#fff;
+    border-radius: 8px;
+}
+

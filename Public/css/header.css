@@ -1,0 +1,27 @@
+/*顶部说明*/
+body{background:#f9f9f9;}
+li{list-style: none;}
+.top
+{
+    height:120px;
+    background:#fff;
+    margin-bottom: 20px;
+    position: relative;
+}
+.top p
+{
+    font-size:28px;
+    color:rgb(64, 117, 231);
+    line-height: 120px;
+}
+.left-side-nav{height:120px;}
+.left-side-nav .logo{text-indent: 2em;}
+.left-side-nav ul{padding-left: 80px;margin-right: 20px;}
+.left-side-nav li{padding:0 12px;line-height: 46px;margin-right: 10px;}
+.left-side-nav li a{color:rgb(56, 56, 56); font-size: 20px;}
+.right-side-nav{position:absolute;right:75px;top:0px;height:120px;}
+.right-side-nav .person-pic {display:block;width:50px;height:50px;}
+.right-side-nav .person-pic ul{display: none;padding-left:10px;width: 100px;line-height:30px;background:#fff;border:1px solid rgb(206, 206, 206);}
+.right-side-nav .person-pic ul li a{color:rgb(121, 121, 121);}
+.right-side-nav .person-pic:hover{cursor: pointer;}
+.right-side-nav .person-pic:hover ul{display: block;}
